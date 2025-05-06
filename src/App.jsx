@@ -1,13 +1,4 @@
-function App() {
-  const [ selectedTopic, setSelectedTopic ] = useState('components');
-
-  function handleClick(selectedButton) {
-    // selectedButton => 'components, 'jsx', 'props, 'state'
-    setSelectedTopic(selectedButton);
-}
-
-  console.log("APP COMPONENT EXECUTING");
-
+ function App() {
   return (
     <div>
       <header>
